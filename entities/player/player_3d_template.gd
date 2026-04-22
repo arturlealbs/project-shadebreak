@@ -7,6 +7,8 @@ extends CharacterBody3D
 @export var o2_Bar :ProgressBar
 @export var max_H2o = 100
 @export var decay_H2o = 2.0
+@export var running_decay_H2o = 1.0
+
 @export var H2o_Bar :ProgressBar
 @export_group("Movement")
 ## Character maximum run speed on the ground in meters per second.
@@ -184,4 +186,5 @@ func _process(delta: float) -> void:
 		velocity = Vector3.ZERO
 		_skin.idle()
 		current_O2 = max_O2
-	
+		current_H2o = max_H2o
+		

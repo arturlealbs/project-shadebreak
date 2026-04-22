@@ -12,6 +12,7 @@ script = ExtResource("1_1il7v")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.43638, 0, -7.8513)
 decay_O2 = 0.57
 o2_Bar = NodePath("../Control/BarraO2")
+decay_H2o = 0.57
 H2o_Bar = NodePath("../Control/BarraH2o")
 wall_slide_gravity = -15.0
 wall_offset = 0.0
