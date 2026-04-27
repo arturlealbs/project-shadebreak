@@ -12,10 +12,6 @@
 [ext_resource type="Material" uid="uid://da188d7yrcfr8" path="res://scenes/test_level/platforms.tres" id="7_njuj4"]
 [ext_resource type="PackedScene" uid="uid://c6uew1wfpkt16" path="res://scenes/test_level/interactable/flag/flag_3d.tscn" id="8_kebk2"]
 [ext_resource type="Material" uid="uid://bdrq5w8t1gwnd" path="res://scenes/test_level/ledges.tres" id="12_5aw87"]
-[ext_resource type="PackedScene" uid="uid://cfxyi1n1253yv" path="res://scenes/casa_corrigida.tscn" id="13_wr1rh"]
-[ext_resource type="PackedScene" uid="uid://bdr4kg0m7h1wi" path="res://scenes/casadesla.tscn" id="14_tui3c"]
-[ext_resource type="PackedScene" uid="uid://dk1sfyuw8s6uq" path="res://scenes/casa_christian_unificada.tscn" id="15_p7jm8"]
-[ext_resource type="PackedScene" uid="uid://b2c2pb34vvdcf" path="res://scenes/casa_crhistian_editavel.tscn" id="16_4vgpq"]
 
 [sub_resource type="Curve" id="Curve_k4wis"]
 _data = [Vector2(0.331719, 0.0391753), 0.0, 0.0, 0, 0, Vector2(0.697336, 1), 0.51276, 0.0, 0, 0]
@@ -250,15 +246,3 @@ use_collision = true
 polygon = PackedVector2Array(0, 0, 3, 2, 3, 0)
 depth = 4.0
 material = ExtResource("7_njuj4")
-
-[node name="CasaCorrigida" parent="." unique_id=1325079441 instance=ExtResource("13_wr1rh")]
-transform = Transform3D(-8.742278e-08, 0, 2, 0, 2, 0, -2, 0, -8.742278e-08, -13.151356, 1.9074364, -27.260866)
-
-[node name="Casadesla" parent="." unique_id=1657356333 instance=ExtResource("14_tui3c")]
-transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, -21.494907, 1.6072168, -37.214413)
-
-[node name="casa_christian_unificada" parent="." unique_id=68045424 instance=ExtResource("15_p7jm8")]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -20.452976, 1.4496695, -47.61498)
-
-[node name="CasaCrhistianEditavel" parent="." unique_id=1678120991 instance=ExtResource("16_4vgpq")]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -20.436634, 1.4496676, -43.6482)
